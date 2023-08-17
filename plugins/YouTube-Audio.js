@@ -10,12 +10,12 @@ try {
 await m.reply(` *_⏳ESPERA MIENTRAS LE MANDAMOS SU PEDIDO⏳* \n\n *_⏳WAIT WHILE WE SEND YOUR ORDER_⏳* `)
 await m.reply(`⌛ _Cargando..._\n▰▰▰▱▱▱▱▱▱`)
 const yt_play = await search(args.join(" "))
-let captionvid = `➤͜͡🎶📌*name:* *${yt_play[0].title}*
-➤͜͡📆 *Published:* *${yt_play[0].ago}*
-➤͜͡⌚ *Duration:* *${secondString(yt_play[0].duration.seconds)}*
-➤͜͡👀 *Views:* *${MilesNumber(yt_play[0].views)}*
-➤͜͡🔗 *Link:* * ${yt_play[0].url}*
-⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍`  
+let captionvid = `➥ 𓏲 ๋࣭  ➤͜͡🎶📌*name:* *${yt_play[0].title}*
+➥ 𓏲 ๋࣭ ➤͜͡📆 *Published:* *${yt_play[0].ago}*
+➥ 𓏲 ๋࣭  ➤͜͡⌚ *Duration:* *${secondString(yt_play[0].duration.seconds)}*
+➥ 𓏲 ๋࣭  ➤͜͡👀 *Views:* *${MilesNumber(yt_play[0].views)}*
+➥ 𓏲 ๋࣭  ➤͜͡🔗 *Link:* * ${yt_play[0].url}*
+▒̶᩠߲⃡ࠖ᩼᭭݊⃝⃡🩵ࣱꪾ῾֣ؐ  𝘈𝘯𝘯𝘪𝘦𝘉𝘰𝘵 °୭`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
