@@ -4,13 +4,13 @@ let handler = async (m, { isPrems }) => {
   let time = global.db.data.users[m.sender].lastclaim + 86400000
   if (new Date - global.db.data.users[m.sender].lastclaim < 86400000) throw `🎁 *Ya recogiste tu recompensa diaria*\n\n🕚 Vuelve en *${msToTime(time - new Date())}* `
   global.db.data.users[m.sender].exp += isPrems ? prem : free
-  m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
+  m.reply(`╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
 │🛒 ʀᴇᴄᴏᴍᴘᴇɴsᴀ ᴅɪᴀʀɪᴀ
 │┈┈┈┈┈┈┈┈┈┈┈┈┈
-│➯🎁 *RECOMPENSA DIARIA*
-│➯▢ *Has recibido:*
-│➯🆙 *XP* : +${isPrems ? prem : free}
-╰───────────────╯`)
+│➥ 𓏲 ๋࣭ 🎁 *RECOMPENSA DIARIA*
+│➥ 𓏲 ๋࣭ ▢ *Has recibido:*
+│➥ 𓏲 ๋࣭ 🆙 *XP* : +${isPrems ? prem : free}
+╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`)
   global.db.data.users[m.sender].lastclaim = new Date * 1
 }
 handler.help = ['daily']
