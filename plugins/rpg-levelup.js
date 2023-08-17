@@ -6,23 +6,23 @@ let handler = async (m, { conn }) => {
     let user = global.db.data.users[m.sender]
     if (!canLevelUp(user.level, user.exp, global.multiplier)) {
         let { min, xp, max } = xpRange(user.level, global.multiplier)
-        throw `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯─⊷ *LEVEL
-│➯Nombre : *${name}*
-│➯Nivel : *${user.level}*
-│➯XP : *${user.exp - min}/${xp}*
-╰───────────────╯
+        throw `╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
+│➥ 𓏲 ๋࣭ ─⊷ *LEVEL
+│➥ 𓏲 ๋࣭ Nombre : *${name}*
+│➥ 𓏲 ๋࣭ Nivel : *${user.level}*
+│➥ 𓏲 ๋࣭ XP : *${user.exp - min}/${xp}*
+╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯
 You need *${max - user.exp}* of *XP* to level up`.trim()
     }
     let before = user.level * 1
     while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
     if (before !== user.level) {
         let teks = `🎊 Bien hecho ${conn.getName(m.sender)}    Nivel:`
-        let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯─⊷ *LEVEL UP*
-│➯Nivel anterior : *${before}*
-│➯Nivel actual : *${user.level}*
-╰───────────────╯
+        let str = `╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
+│➥ 𓏲 ๋࣭ ─⊷ *LEVEL UP*
+│➥ 𓏲 ๋࣭ Nivel anterior : *${before}*
+│➥ 𓏲 ๋࣭ Nivel actual : *${user.level}*
+╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯
 The more you interact with the bots, the higher your level will be_*`.trim()
         try {
             const img = await levelup(teks, user.level)
