@@ -8,14 +8,14 @@ let res = await fetch(`https://latam-api.vercel.app/api/rand_aviso?apikey=brunos
 let json = await res.json()
 let frase = json.aviso
 let frase1 = await translate(frase, { to: 'es', autoCorrect: true })
-await m.reply(`*┏━━━━━━━━━━━━━━━━┓*\n*┠❧  ${frase1.text}*\n*┗━━━━━━━━━━━━━━━━┚*`)}
+await m.reply(`*ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮*\n*⋆ ࣪.𓏲 ๋࣭  ${frase1.text}*\n*ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯*`)}
 
 if (command == 'fraseromantica') {
 let res = await fetch("https://api.zahwazein.xyz/randomtext/bucinquote?apikey=hdiiofficial")
 let json = await res.json()
 let frase = json.result.message
 let frase1 = await translate(frase, { to: 'es', autoCorrect: true }).catch(_ => null)
-m.reply(`*╭─◆────◈⚘◈─────◆─╮*\n*❥  ${frase1.text}*\n*╰─◆────◈⚘◈─────◆─╯*`)}
+m.reply(`*ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮*\n*⋆ ࣪.𓏲 ๋࣭  ${frase1.text}*\n*ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯*`)}
 
 if (command == 'historiaromantica') {  
 try {    
