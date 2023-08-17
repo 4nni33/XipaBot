@@ -14,7 +14,7 @@ const handler = async (m, {conn, text}) => {
     const randomName = getRandom('.mp3');
     const filePath = `./tmp/${randomName}`;
     fs.writeFileSync(filePath, spty.audio);
-    const spotifyi = `📌*𝚃𝙸𝚃𝚄𝙻𝙾:* ${spty.data.name}\n🖇️*𝙰𝚁𝚃𝙸𝚂𝚃𝙰:* ${spty.data.artists}\n🌐 *𝚄𝚁𝙻*: ${linkDL}`;
+    const spotifyi = `⋆ ࣪.𓏲 ๋࣭ ➤ *𝚃𝙸𝚃𝚄𝙻𝙾:* ${spty.data.name}\n⋆ ࣪.𓏲 ๋࣭ ➤*𝙰𝚁𝚃𝙸𝚂𝚃𝙰:* ${spty.data.artists}\n⋆ ࣪.𓏲 ๋࣭ ➤ *𝚄𝚁𝙻*: ${linkDL}`;
     await conn.sendFile(m.chat, spty.data.cover_url, 'error.jpg', spotifyi, m);
     await conn.sendMessage(m.chat, {audio: fs.readFileSync(`./tmp/${randomName}`), fileName: `${spty.data.name}.mp3`, mimetype: 'audio/mp4'}, {quoted: m});
   } catch {
