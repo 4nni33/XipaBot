@@ -17,39 +17,20 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🌴 *ᴏᴡɴᴇʀ:ᴏғᴄ➟ʏᴏᴠᴀɴɪ*
-│➯🧿 *Número*➟5212412377467*
-│➯📽️ *canal-YouTube*
-│➯🖇️ *https://youtube.com/@hades_bot2391*
-│➯📅 *ғᴇᴄʜᴀ:➟${date}*
-│➯⏰ *ᴛɪᴇᴍᴘᴏ:➟${uptime}*
-│➯👥 *ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}*
-︎╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭「❥🧿 *Grupos y cuentas*🧿 ❥」
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰*
-│➯🧿 https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰2*
-│➯🧿 https://chat.whatsapp.com/DpRVuXpKRF43iMOEtg85wz
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰3*
-│➯🧿 https://chat.whatsapp.com/LLCdXUAUjtVA8And8clsWu
-│➯🧿 *𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰4*
-│➯🧿https://chat.whatsapp.com/DSb14IPCAaU0ZovBwA2ts0
-│➯🧿 *𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰*
-│➯🧿 https://chat.whatsapp.com/BuloWd29LSnDZHXtUJDybF
-│➯🧿 *𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰2*
-│➯🧿 https://chat.whatsapp.com/CJqwaDfrXP02oWl2WAf8rK
-│➯👥 *𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔*
-│➯👥 https://www.facebook.com/groups/987464505464904/?ref=share
-│➯📽️ *𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎*
-│➯🖇️ https://youtube.com/@hades_bot2391
-│➯🎋 *INSTAGRAM*
-│➯🖇️ https://instagram.com/ofc.yovani.bot?igshid=ZDc4ODBmNjlmNQ==
-│➯🔮 *KIKTOK*
-│➯🖇️ https://vm.tiktok.com/ZM2rbFWnr/
-︎╰───────────────╯`.trim()
+let str = `ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
+ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ ততত
+┈─𖨂 :✨ *Hola ${taguser}*
+┈─𖨂 :🌴 *Owner: Annie*
+┈─𖨂 :🧿 *Número: 59892959423*
+┈─𖨂 :📅 *Fecha: ${date}*
+┈─𖨂 :⏰ *Tiempo: ${uptime}*
+┈─𖨂 :👥 *Usuarios: ${rtotalreg}*
+ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯
+┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈
+  ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈┈╮
+┈─𖨂 : *ʚ🩵ɞ  Cuentas ✨ ⤾·˚ ༘*
+┈─𖨂 :*Instagram:* instagram.com/designs.annie
+ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
