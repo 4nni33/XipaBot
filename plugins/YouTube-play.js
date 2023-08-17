@@ -15,7 +15,7 @@ if (command === 'play') {
 additionalText = 'audio 🔊'
 } else if (command === 'play2') {
 additionalText = 'video 🎥'}
-let texto1 = ⋆ ࣪.𓏲 ๋࣭ ➤ ⁩PLAY-YouTube--⦿
+let texto1 = `⋆ ࣪.𓏲 ๋࣭ ➤ ⁩PLAY-YouTube
 ----------------------------------------------------------------------------------------------------------
 ⇄    ◁   ㅤ  ❚❚ㅤ   ▷ㅤ    ↻
 ⋆ ࣪.𓏲 ๋࣭ ➤͜͡🎶📌 *name:* ${yt_play[0].title}
