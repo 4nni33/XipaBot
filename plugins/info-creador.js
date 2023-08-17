@@ -1,24 +1,22 @@
 let handler = async (m, { conn, usedPrefix }) => {
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let text = `╭─「➻❥ *owner* ➻❥」
-│➯ ⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍
-│➯Wa.me/5212412377467 (CREADOR)
-│➯Wa.me/5212411261883 (CREADOR) 
-│➯Wa.me/5212411719888 (CREADOR)
-│➯Wa.me/5212411347465 (CREADOR)
+let text = `  ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈┈╮
+┈─𖨂 : *ʚ🩵ɞ  Onwer & Creador ✨ ⤾·˚ ༘*
+➥ 𓏲 ๋࣭ wa.me/5212412377467 (CREADOR)
+➥ 𓏲 ๋࣭ wa.me/+59892959423 (OWNER)
 ╰───────────────╯`.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/OFC-YOVANI/HADES-BOT-OMEGA` },
+'document': { url: `https://github.com/4nni33/Annie` },
 'mimetype': `application/${document}`,
-'fileName': `⫷᭄ʜᴀᴅᴇs-ʙᴏᴛ-ᴍᴅ﹏✍`,
+'fileName': `▒̶᩠߲⃡ࠖ᩼᭭݊⃝⃡🩵ࣱꪾ῾֣ؐ  𝘈𝘯𝘯𝘪𝘦𝘉𝘰𝘵 °୭`,
 'fileLength': 99999999999999,
 'pageCount': 200,
 'contextInfo': {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/OFC-YOVANI/HADES-BOT-OMEGA',
+'mediaUrl': 'https://github.com/4nni33/Annie',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
