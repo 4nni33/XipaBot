@@ -21,12 +21,12 @@ let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
 let str = `ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ ততত
-⋆ ࣪.𓏲 ๋࣭ *𝗛ᴏʟᴀ ${taguser}*
-⋆ ࣪.𓏲 ๋࣭ *Owners ➟ Annie*
-⋆ ࣪.𓏲 ๋࣭ *Número ➟ 59892959423*
-⋆ ࣪.𓏲 ๋࣭ *Fecha ➟${date}*
-⋆ ࣪.𓏲 ๋࣭ *Tiempo Activo ➟${uptime}*
-⋆ ࣪.𓏲 ๋࣭ *Usuarios ➟${rtotalreg}*
+⋆ ࣪.𓏲 ๋࣭ *Hola ${taguser}*
+⋆ ࣪.𓏲 ๋࣭ *Owners: Annie*
+⋆ ࣪.𓏲 ๋࣭ *Número: 59892959423*
+⋆ ࣪.𓏲 ๋࣭ *Fecha: ${date}*
+⋆ ࣪.𓏲 ๋࣭ *Tiempo Activo: ${uptime}*
+⋆ ࣪.𓏲 ๋࣭ *Usuarios: ${rtotalreg}*
 তততততততততততততততততততততত
 
   ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈┈╮
