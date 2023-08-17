@@ -16,41 +16,42 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」
-│➯✨ *𝗛ᴏʟᴀ,➟${taguser}*
-│➯🔞 *Menu+18*
-︎╰───────────────╯
-🍁᭢━━━━━━━━━᭥🍁᭢
-╭─「❥🔥 *Hentai+18* 💥❥」
-│➯🔞 *.nsfwloli*
-│➯🔞 *.nsfwfoot*
-│➯🔞 *.nsfwassnsfwbdsm*
-│➯🔞 *.nsfwcum*
-│➯🔞 *.nsfwero*
-│➯🔞 *.nsfwfemdom*
-│➯🔞 *.nsfwfoot*
-│➯🔞 *.nsfwglss*
-│➯🔞 *.nsfworgy*
-│➯🔞 *.yuri*
-│➯🔞 *.yuri2*
-│➯🔞 *.yaoi*
-│➯🔞 *.yaoi2*
-│➯🔞 *.panties*
-│➯🔞 *.tits*
-│➯🔞 *.booty*
-│➯🔞 *.pechos*
-│➯🔞 *.tetas*
-│➯🔞 *.booty*
-│➯🔞 *.ecchi*
-│➯🔞 *.furro*
-│➯🔞 *.hentai*
-│➯🔞 *.trapito*
-│➯🔞 *.imagenlesbians*
-│➯🔞 *.pene*
-│➯🔞 *.porno*
-│➯🔞 *.randomxxx*
-│➯🔞⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰✍
-︎╰───────────────╯`.trim()
+let str = ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
+┈─𖨂 : *ʚ🩵ɞ  AnnieBot ✨ ⤾·˚ ༘*
+┈─𖨂 :✨ *𝗛ᴏʟᴀ,➟${taguser}*
+┈─𖨂 :🔞 *Menu+18*
+ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯
+
+  ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
+┈─𖨂 : *ʚ🩵ɞ  Hentai ✨ ⤾·˚ ༘*
+┈─𖨂 :🔞 *.nsfwloli*
+┈─𖨂 :🔞 *.nsfwfoot*
+┈─𖨂 :🔞 *.nsfwassnsfwbdsm*
+┈─𖨂 :🔞 *.nsfwcum*
+┈─𖨂 :🔞 *.nsfwero*
+┈─𖨂 :🔞 *.nsfwfemdom*
+┈─𖨂 :🔞 *.nsfwfoot*
+┈─𖨂 :🔞 *.nsfwglss*
+┈─𖨂 :🔞 *.nsfworgy*
+┈─𖨂 :🔞 *.yuri*
+┈─𖨂 :🔞 *.yuri2*
+┈─𖨂 :🔞 *.yaoi*
+┈─𖨂 :🔞 *.yaoi2*
+┈─𖨂 :🔞 *.panties*
+┈─𖨂 :🔞 *.tits*
+┈─𖨂 :🔞 *.booty*
+┈─𖨂 :🔞 *.pechos*
+┈─𖨂 :🔞 *.tetas*
+┈─𖨂 :🔞 *.booty*
+┈─𖨂 :🔞 *.ecchi*
+┈─𖨂 :🔞 *.furro*
+┈─𖨂 :🔞 *.hentai*
+┈─𖨂 :🔞 *.trapito*
+┈─𖨂 :🔞 *.imagenlesbians*
+┈─𖨂 :🔞 *.pene*
+┈─𖨂 :🔞 *.porno*
+┈─𖨂 :🔞 *.randomxxx*
+ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'Darling.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
