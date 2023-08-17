@@ -1,171 +1,171 @@
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
-let optionsFull = `--------------------------------
+let optionsFull = `┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* ✨ | WELCOME
 *Comando:* /enable welcome
 *Descripción:* Activa o desactiva la bienvenida en el grupo.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* ✨ | WELCOME
 *Command:* /disable welcome
 *Description:* Activates or deactivates the welcome in the group.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🌎 | MODO PUBLICO
 *Comando:* /enable public
 *Descripción:* El Bot se vuelve de uso publico y/o privado.
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 🌎 | PUBLIC MODE
 *Command:* /disable public
 *Description:* The Bot becomes for public and/or private use.
 *Note:* This command can only be used by Bot owners.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🔗 | ANTILINK
 *Comando:* /enable antilink
 *Descripción:* Activa o desactiva el anti-enlaces de WhatsApp.
 *Nota:* Se necesita tener activo el restrict.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 🔗 | ANTI-LINK
 *Command:* /disable antilink
 *Description:* Activate or deactivate the anti-links of WhatsApp.
 *Note:* You need to have the restrict active.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🔗 | ANTILINK 2
 *Comando:* /enable antilink2
 *Descripción:* Activa o desactiva el anti-enlaces que inician en HTTPS.
 *Nota:* Se necesita tener activo el restrict.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 🔗 | ANTI-LINK 2
 *Command:* /disable antilink2
 *Description:* Enables or disables anti-links starting at HTTPS.
 *Note:* You need to have the restrict active.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🔎 | DETECT
 *Comando:* /enable detect
 *Descripción:* Activa o desacriva las notificaciones de cambios en el grupo.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🔎 | DETECT 2
 *Comando:* /disable detect2
 *Descripción:* Detecta modificaciones en el grupo y mantiene una mejor gestion.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* ❗ | RESTRICT
 *Comando:* /disable restrict
 *Descripción:* Activa o desactiva las restricciones del Bot, como la de sacar o agregar personas a un grupo.
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* ☑️ | AUTOREAD
 *Comando:* /enable autoread
 *Descripción:* Marca como leido los mensajes y los estados automáticamente.
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* ☑️ | AUTOREAD
 *Command:* /disable autoread
 *Description:* Automatically mark messages and statuses as read.
 *Note:* This command can only be used by Bot owners.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🔊 | AUDIOS
 *Comando:* /enable audios
 *Descripción:* Activa o desactiva los comandos de audios sin prefijos, en el grupo.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 🔊 | SOUNDS
 *Command:* /disable audios
 *Description:* Activates or deactivates the audio commands without prefixes, in the group.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 👾 | AUTOSTICKER
 *Comando:* /enable autosticker 
 *Descripción:* Todas las imagenes o videos enviados en el grupo se convierten en stickers. 
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 👾 | AUTOSTICKER
 *Command:* /disable autosticker
 *Description:* All images or videos sent in the group become stickers.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 💬 | PCONLY
 *Comando:* /enable pconly
 *Descripción:* El Bot solo responderá a los comandos si es un chat privado.
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 💬 | PCONLY
 *Command:* /disable pconly
 *Description:* The Bot will only respond to commands if it is a private chat.
 *Note:* This command can only be used by Bot owners.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🏢 | GCONLY 
 *Comando:* /enable gconly
 *Descripción:* El Bot solo respondera a los comandos si es un grupo. 
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* ❌ | ANTIVIEWONCE 
 *Comando:* /enable antiviewonce
 *Descripción:* Las imagenes enviadas para ver solo una vez, son reenviadas normal por el Bot. 
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* ❌ | ANTIVIEW ONCE
 *Command:* /disable antiviewonce
 *Description:* The images sent to see only once, are resent normally by the Bot. 
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🤬 | ANTITOXIC
 *Comando:* /enable antitoxic
 *Descripción:* Detecta la malas palabras y advierte al participante del grupo, antes de ser eliminado.
 *Nota:* Se necesita tener activo el restrict.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 🤬 | ANTITOXIC
 *Command:* /disable antitoxic
 *Description:* Detects bad words and warns the group participant, before being eliminated.
 *Note:* You need to have the restrict active
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 🕸️ | ANTITRABAS
 *Comando:* /enable antitraba
 *Descripción:* El Bot detecta textos largos que podrian ser virus y causar lag en el chat y elimina al usuario.
 *Nota:* Se necesita tener activo el restrict.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 🕸️ | ANTI-JAM
 *Command:* /disable antitraba
 *Description:* The Bot detects long texts that could be viruses and cause chat lag and deletes the user.
 *Note:* You need to have active
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 👎 | ANTIARABES
 *Comando:* /enable antiarabes
 *Descripción:* Si un numero árabe se uné al grupo, el Bot lo elimina automaticamente.
 *Nota:* Se necesita tener activo el welcome y el restrict.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 👎 | ANTI-ARAB
 *Command:* /disable antiarabes
 *Description:* If an Arabic number joins the group, the Bot automatically removes it.
 *Note:* You need to have the welcome and the restrict active.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 👎 | ANTIARABES 2
 *Comando:* /enable antiarabes2
 *Descripción:* Si un numero árabe escribe en el grupo, el Bot lo elimina automaticamente.
 *Nota:* Se necesita tener activo el restrict.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 👎 | ANTI-ARAB 2
 *Command:* /disable antiarabes2
 *Description:* If an Arabic number writes in the group, the Bot automatically deletes it.
 *Note:* You need to have the restrict active.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 👑 | MODOADMIN
 *Comando:* /enable modoadmin
 *Descripción:* El Bot solo responderá a los admins del grupo.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 👑 | ADMIN MODE
 *Command:* /disable adminmode
 *Description:* The Bot will only respond to group admins.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* 😃 | SIMSIMI
 *Comando:* /enable simsimi
 *Descripción:* El Bot empezará a responder a los mensajes usando la IA de SimSimi.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* 😃 | SIMSIMI
 *Command:* /disable simsimi
 *Description:* The Bot will start responding to messages using SimSimi's AI.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Opción:* ⏳ | ANTISPAM
 *Comando:* /enable antispam
 *Descripción:* El Bot detecta cuando un usuario hace spam de comando y lo banea por 5 segundos y lo advierte.
 *Nota:* Este comando solo podrá ser usado por owners del Bot.
---------------------------------
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈
 *Option:* ⏳ | ANTISPAM
 *Command:* /disable antispam
 *Description:* The Bot detects when a user spams the command and bans them for 5 seconds and warns them.
 *Note:* This command can only be used
---------------------------------`.trim()
+┈┈┈┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈┈┈┈`.trim()
 
 let isEnable = /true|enable|(turn)?on|1/i.test(command)
 let chat = global.db.data.chats[m.chat]
