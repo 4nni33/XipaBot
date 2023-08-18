@@ -221,8 +221,8 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '-------------------------------------------------\n▒̶᩠߲⃡ࠖ᩼᭭݊⃝⃡🩵ࣱꪾ῾֣ؐ  𝘈𝘯𝘯𝘪𝘦𝘉𝘰𝘵 °୭\n➥ 𓏲 ๋࣭ ¡Hola! @user\n➥ 𓏲 ๋࣭  ¡bienvenidx!\n➥ 𓏲 ๋࣭ Número de mi owner:\n➥ 𓏲 ๋࣭  wa.me/+59892959423\nPor favor, lee las reglas del grupo y evita ser eliminado\n@desc\n🌱 Annie Design\n-------------------------------------------------'
-conn.bye = '-------------------------------------------------\n@user\nSalió del grupo, una lástima, a este jardín le faltaban plantas 🌱\n\n *HE LEFT THE GROUP NO WAY THAT YOU GO WELL UNTIL THE NEXT TIME GOD BLESS YOU*\n🌱 Annie Design\n-------------------------------------------------'
+conn.welcome = '-------------------------------------------------\n▒̶᩠߲⃡ࠖ᩼᭭݊⃝⃡🩵ࣱꪾ῾֣ؐ  𝘈𝘯𝘯𝘪𝘦𝘉𝘰𝘵 °୭\n➥ 𓏲 ๋࣭ ¡Hola! @user\n➥ 𓏲 ๋࣭  ¡bienvenidx!\n➥ 𓏲 ๋࣭ Número de mi owner:\n➥ 𓏲 ๋࣭  wa.me/+59892959423\n \nPor favor, lee las reglas del grupo y evita ser eliminado\n@desc\n🌱 Annie Design\n-------------------------------------------------'
+conn.bye = '-------------------------------------------------\n@user\nSalió del grupo, una lástima, a este jardín le faltaban plantas 🌱\n🌱 Annie Design\n-------------------------------------------------'
 conn.spromote = '*@user 𝚂𝙴 𝚂𝚄𝙼𝙰 𝙰𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂\n\n*ADMINS GROUP JOINS!!*'
 conn.sdemote = '*@user 𝙰𝙱𝙰𝙽𝙳𝙾𝙽𝙰 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙳𝙴 𝙰𝙳𝙼𝙸𝙽𝚂 !!\n\n*ABANDONED THE ADMIN GROUP*'
 conn.sDesc = '*𝚂𝙴 𝙷𝙰 𝙼𝙾𝙳𝙸𝙵𝙸𝙲𝙰𝙳𝙾 𝙻𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾*\n\n *GROUP DESCRIPTION HAS BEEN CHANGED*\n*𝙽𝚄𝙴𝚅𝙰 𝙳𝙴𝚂𝙲𝚁𝙸𝙿𝙲𝙸𝙾𝙽:* @desc'
