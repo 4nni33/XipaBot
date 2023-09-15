@@ -44,39 +44,29 @@ let str = `ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ 
 
 ㅤㅤ╭┈─┈─┈─┈─┈─┈─┈─┈╮
 ┈─𖨂 : *ʚ🩵ɞ  InfoBot ✨ ⤾·˚ ༘*
-┈─𖨂 : 🎙️ *.menu2 notas de audios*
-┈─𖨂 : 🪴 *.animes imagenes*
-┈─𖨂 : 🍁 *.grupos*
-┈─𖨂 : 🫅🏻 *.owner contactos*
-┈─𖨂 : 🔞 *.labiblia +18*
-┈─𖨂 : 🆙 *.enable comandos para el owner*
-┈─𖨂 : 🏓 *.logos*
+┈─𖨂 : 🎙️ *.menu2 (notas de audios)*
+┈─𖨂 : 🪴 *.animes (imagenes)*
+┈─𖨂 : 🍁 *.grupos (info)*
 ┈─𖨂 : ♻️ *.tagall*
-┈─𖨂 : ✨ *.sc git hades*
 ┈─𖨂 : ♻️ *.comangrupos*
-┈─𖨂 : 💠 *.infogrupo*
 ┈─𖨂 : 🛒 *.shop tienda*
 ┈─𖨂 : 🛒 *.sell tienda*
-┈─𖨂 : 📍 *.ip servidor de minecraft*
 ㅤㅤ╰┈─┈─┈─┈─┈─┈─┈─┈╯
 
 ┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈
 
 ㅤㅤ╭┈─┈─┈─┈─┈─┈─┈─┈╮
 ┈─𖨂 : *ʚ🩵ɞ  Grupos ✨ ⤾·˚ ༘*
-┈─𖨂 : *.welcome @tag*
 ┈─𖨂 : 📌 *.welcome @tag*
-┈─𖨂 : 📌 *bye @tag*
+┈─𖨂 : 📌 *.todos*
+┈─𖨂 : 📌 *.notify*
 ┈─𖨂 : 📌 *.promote @tag*
 ┈─𖨂 : 📌 *.demote @tag*
-┈─𖨂 : 📌 *.infogp <info del grupo>*
 ┈─𖨂 : 📌 *.infobot <estado del bot>*
 ┈─𖨂 : 📌 *.hidetag*
-┈─𖨂 : 📌 *.delete elimina mensajes del bot*
-┈─𖨂 : 📌 *.del*
-┈─𖨂 : 📌 *.join*
+┈─𖨂 : 📌 *.del (elimina mensajes del bot)*
 ┈─𖨂 : 📌 *.link link de tu grupo*
-┈─𖨂 : 📌 *.advertir*
+┈─𖨂 : 📌 *.warn (advertencia)*
 ┈─𖨂 : 📌 *.unwarn*
 ㅤㅤ╰┈─┈─┈─┈─┈─┈─┈─┈╯
 
@@ -93,18 +83,18 @@ let str = `ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ 
 
 ㅤㅤ╭┈─┈─┈─┈─┈─┈─┈─┈╮
 ┈─𖨂 : *ʚ🩵ɞ  Ganar & Comprar ✨ ⤾·˚ ༘*
-┈─𖨂 : ⛏️ *.minar gana xp*
+┈─𖨂 : ⛏️ *.minar gana XP*
 ┈─𖨂 : ⛏️ *.minar2 gana Diamantes*
-┈─𖨂 : ⛏️ *.minar3 gana Hades-Coins*
-┈─𖨂 : 🧿 *.claim reclama tu recompensa diaria exp*
-┈─𖨂 : 🎁 *.coffer un cofre de recompensas diarias*
-┈─𖨂 : 📃 *.dinero para ver tus diamantes y dinero*
-┈─𖨂 : 💎 *puedes comprar diamantes usando los comandos* 
-┈─𖨂 : 🔱 *.busyall te cobra Hades-Coins*
-┈─𖨂 : 🔱 *.bus <cantidad>* 
-┈─𖨂 : 🧿 *.buyall te cobra experiencia*
+┈─𖨂 : ⛏️ *.minar3 gana Coins*
+┈─𖨂 : 🧿 *.claim (recompensa XP)*
+┈─𖨂 : 🎁 *.cofre (revompensas diarias)*
+┈─𖨂 : 📃 *.dinero (ver tus diamantes y dinero)*
+┈─𖨂 : 💎 *Comprar diamantes:+
+┈─𖨂 : 🔱 *.busyall (usa Coins)*
+┈─𖨂 : 🔱 *.buy <cantidad>* 
+┈─𖨂 : 🧿 *.buyall (usa XP)*
 ┈─𖨂 : 🧿 *.buy <cantidad>*
-┈─𖨂 : 💵 *.dolares te cobra diamantes*
+┈─𖨂 : 💵 *.dolares(usa Diamantes)*
 ㅤㅤ╰┈─┈─┈─┈─┈─┈─┈─┈╯
 
 ┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈
@@ -121,14 +111,13 @@ let str = `ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ 
 
 ㅤㅤ╭┈─┈─┈─┈─┈─┈─┈─┈╮
 ┈─𖨂 : *ʚ🩵ɞ  Stickers ✨ ⤾·˚ ༘*
-┈─𖨂 : 👾 *.stiker2 con una imagen o link*
-┈─𖨂 : 👾 *.stiker con una imagen o link*
+┈─𖨂 : 👾 *.sticker*
+┈─𖨂 : 👾 *.sticker*
 ┈─𖨂 : 👾 *.wm paquete | nombre*
-┈─𖨂 : 👾 *.sermoverbg imagen sin fondo*
+┈─𖨂 : 👾 *.sermoverbg (imagen sin fondo)*
 ┈─𖨂 : 👾 *.slap*
-┈─𖨂 : 👾 *.scircle sticker circular*
+┈─𖨂 : 👾 *.scircle (sticker circular(*
 ┈─𖨂 : 👾 *.pat*
-┈─𖨂 : 👾 *.emojimix ☺&😈*
 ┈─𖨂 : 👾 *.dados*
 ㅤㅤ╰┈─┈─┈─┈─┈─┈─┈─┈╯
 
@@ -136,8 +125,6 @@ let str = `ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ 
 
 ㅤㅤ╭┈─┈─┈─┈─┈─┈─┈─┈╮
 ┈─𖨂 : *ʚ🩵ɞ  Descargas ✨ ⤾·˚ ༘*
-┈─𖨂 : 📇 *.wikipedia <busqueda>*
-┈─𖨂 : 📇 *.animeinfo <nombre>*
 ┈─𖨂 : 📇 *.play nombre de tu canción*
 ┈─𖨂 : 📇 *.play2 nombre de tu video*
 ┈─𖨂 : 📇 *.play3 nombre de tu canción,doc*
@@ -258,17 +245,7 @@ let str = `ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ 
 ㅤㅤ╭┈─┈─┈─┈─┈─┈─┈─┈╮
 ╭─「❥📊 *Otros Comandos* ⚙️❥」
 ┈─𖨂 : 📊 *.hd <imagen>*
-┈─𖨂 : 📊 *.topdf*
-┈─𖨂 : 📊 *.ytcomment*
-┈─𖨂 : 📊 *.removebg*
-┈─𖨂 : 📊 *.wpgaming*
-┈─𖨂 : 📊 *.doraemon*
-┈─𖨂 : 📊 *.planeta*
-┈─𖨂 : 📊 *.technology*
-┈─𖨂 : 📊 *.ciberespacio*
-┈─𖨂 : 📊 *.caricatura*
-┈─𖨂 : 📊 *.pubg*
-┈─𖨂 : 📊 *.wprandom*
+┈─𖨂 : 📊 *.removebg (remueve fondo)*
 ┈─𖨂 : 📊 *.styletext*
 ┈─𖨂 : 📊 *.afk*
 ┈─𖨂 : 📊 *.lb*
@@ -276,45 +253,8 @@ let str = `ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ 
 ┈─𖨂 : 📊 *.clima*
 ┈─𖨂 : 📊 *.covid*
 ┈─𖨂 : 📊 *.horario*
-︎ㅤㅤ╰┈─┈─┈─┈─┈─┈─┈─┈╯
-
-┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈
-
-ㅤㅤ╭┈─┈─┈─┈─┈─┈─┈─┈╮
-┈─𖨂 : *ʚ🩵ɞ  Logos ✨ ⤾·˚ ༘*
-┈─𖨂 : 🧨 *.blackpink <texto>*
-┈─𖨂 : 🧨 *.bloodfrosted <texto>*
-┈─𖨂 : 🧨 *.bokelog <texto>*
-┈─𖨂 : 🧨 *.box3d <texto>*
-┈─𖨂 : 🧨 *.breakwall  <texto>*
-┈─𖨂 : 🧨 *.cloud <texto>*
-┈─𖨂 : 🧨 *.deluxesilver <texto>*
-┈─𖨂 : 🧨 *.futureneon <texto>*
-┈─𖨂 : 🧨 *.halloween <texto>*
-┈─𖨂 : 🧨 *.icecold <texto>*
-┈─𖨂 : 🧨 *.impressiveglitch <texto>*
-┈─𖨂 : 🧨 *.jokerlogo <texto>*
-┈─𖨂 : 🧨 *.logolol <texto>*
-┈─𖨂 : 🧨 *.luxurylog <texto>*
-┈─𖨂 : 🧨 *.holographic <texto>*
-┈─𖨂 : 🧨 *.magma <texto>*
-┈─𖨂 : 🧨 *.metaldark <texto>*
-┈─𖨂 : 🧨 *.minion <texto>*
-┈─𖨂 : 🧨 *.natureleaves <texto>*
-┈─𖨂 : 🧨 *.neon <texto>*
-┈─𖨂 : 🧨 *.neonlight <texto>*
-┈─𖨂 : 🧨 *.newyearcard <texto>*
-┈─𖨂 : 🧨 *.roadwarning <texto>*
-┈─𖨂 : 🧨 *.sandengraved <texto>*
-┈─𖨂 : 🧨 *.sandsummer <texto>*
-┈─𖨂 : 🧨 *.sparkle <texto>*
-┈─𖨂 : 🧨 *.strawberry <texto>*
-┈─𖨂 : 🧨 *.text1917 <texto>*
-┈─𖨂 : 🧨 *.thunder <texto>*
-┈─𖨂 : 🧨 *.toxic <texto>*
-┈─𖨂 : 🧨 *.watercolor <texto>*
-┈─𖨂 : 🧨 *.wonderfulgraffiti <texto>*
-ㅤㅤ╰┈─┈─┈─┈─┈─┈─┈─┈╯`.trim()
+┈─𖨂 : 📊 *.animeinfo*
+︎ㅤㅤ╰┈─┈─┈─┈─┈─┈─┈─┈╯`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
