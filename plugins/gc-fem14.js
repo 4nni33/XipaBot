@@ -31,7 +31,6 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
 }
 
 handler.help = ['smsf00 <mensaje>', 'fem00 <mensaje>']
-handler.tags = ['group']
 handler.command = /^(smsf00|fem14)$/i
 handler.admin = true
 handler.group = true
