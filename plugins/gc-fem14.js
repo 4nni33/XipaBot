@@ -6,10 +6,19 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   
   let pesan = args.join` `
   let oi = `THE ZERO LISTA FEM💞: ${pesan}`
-  let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`{
+  let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
+  
+  for (let mem of participants) {
+    // Reemplazar con una cadena vacía para eliminar menciones y números
+    teks += ''
+  }
+  
+  teks += `
+│
+│         💗 ZERO, BOT SIMPLE CREADOR:http://wa.me/59897463355 💗
 │        ₊˚︶︶︶︶︶︶︶︶˚ ‧₊
 │
-│      ෆ 𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:
+│      ෆ 𝘌𝘯𝘢𝘳𝘨𝘢𝘥𝘢:
 │      ෆ 𝘏𝘰𝘳𝘢𝘳𝘪𐐫:
 │         ‧₊⌗ 14 🇵🇪 ⌇ 13 🇨🇱 ⌇ 16 🇦🇷      
 │
@@ -31,6 +40,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
 }
 
 handler.help = ['smsf00 <mensaje>', 'fem00 <mensaje>']
+handler.tags = ['group']
 handler.command = /^(smsf00|fem14)$/i
 handler.admin = true
 handler.group = true
