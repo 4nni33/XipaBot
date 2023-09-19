@@ -1,13 +1,16 @@
 let nombreEncargada = "Encargada"; // Nombre predeterminado
+let textoPersonalizable = "Texto personalizable"; // Texto predeterminado
 
 let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
   if (!(isAdmin || isOwner)) {
     global.dfail('admin', m, conn)
     throw false
   }
+
+  let nuevoNombre = args[0] || nombreEncargada; // Obtiene el nombre nuevo o usa el predeterminado
+  let nuevoTexto = args.slice(1).join(' ') || textoPersonalizable; // Obtiene el texto nuevo o usa el predeterminado
   
-  let pesan = args.join` `
-  let oi = `THE ZERO LISTA FEM💞: ${pesan}`
+  let oi = `THE ZERO LISTA FEM💞: ${nuevoTexto}`;
   let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
   
   teks += `
@@ -29,7 +32,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
 │ㅤ🔞•
 │ㅤ🔞•
 │
-│   ⊹ ִֶָ  𝘋𝘰𝘯𝘢𝘥𝘰𝘳𝘢 𝘥𝘦 𝘴𝘢𝘭𝘢: ${nombreEncargada}
+│   ⊹ ִֶָ  𝘋𝘰𝘯𝘢𝘥𝘰𝘳𝘢 𝘥𝘦 𝘴𝘢𝘭𝘢: ${nombreEncargada} : ${nuevoNombre}
 │
 ╰───────────────๑❀๑ •`
 
@@ -41,14 +44,5 @@ handler.tags = ['group']
 handler.command = /^(smsf00|fem14)$/i
 handler.admin = true
 handler.group = true
-
-// Comando para cambiar el nombre de la encargada
-handler.command = /^(setencargada|encargada)$/i
-handler.rowner = true
-
-handler.exec = async (m, { text }) => {
-  nombreEncargada = text.trim() // Establece el nuevo nombre
-  m.reply(`Nombre de la encargada actualizado a: ${nombreEncargada}`)
-}
 
 export default handler
