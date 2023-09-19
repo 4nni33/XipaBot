@@ -6,15 +6,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   
   let pesan = args.join` `
   let oi = `THE ZERO LISTA FEM💞: ${pesan}`
-  let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
-  
-  for (let mem of participants) {
-    teks += `@${mem.id.split('@')[0]}🍃`
-  }
-  
-  teks += `
-│
-│         💗 ZERO, BOT SIMPLE CREADOR:http://wa.me/59897463355 💗
+  let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`{
 │        ₊˚︶︶︶︶︶︶︶︶˚ ‧₊
 │
 │      ෆ 𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:
