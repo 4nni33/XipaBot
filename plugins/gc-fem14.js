@@ -7,7 +7,6 @@ let pesan = args.join` `
 let oi = `LISTA DE VS: ${pesan}`
 let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
 for (let mem of participants) {
-teks += `@${mem.id.split('@')[0]}🍃`}
 teks += `ㅤ
 │
 │
