@@ -15,7 +15,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   teks += `│
 │      ෆ *𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:*  ${nuevoNombre}
 │      ෆ *𝘏𝘰𝘳𝘢𝘳𝘪𐐫:*
-│         ‧₊⌗ 14 🇵🇪 ⌇ 13 🇨🇱 ⌇ 16 🇦🇷      
+│         ‧₊⌗ 12 🇵🇪 ⌇ 13 🇨🇱 ⌇ 14 🇦🇷      
 │
 │ㅤㅤʚ *𝘑𝘶𝘨𝘢𝘥𝘰𝘳𝘢𝘴:*
 │ㅤ𐀔 • 
@@ -35,7 +35,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
 
 handler.help = ['smsf00 <mensaje>', 'fem00 <mensaje>']
 handler.tags = ['group']
-handler.command = /^(smsf00|fem16)$/i
+handler.command = /^(smsf00|fem14)$/i
 handler.admin = true
 handler.group = true
 
