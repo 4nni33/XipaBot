@@ -6,7 +6,6 @@ throw false
 let pesan = args.join` `
 let oi = `LISTA DE VS: ${pesan}`
 let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n` {
-teks += `ㅤ
 │
 │
 │      ෆ 𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:
