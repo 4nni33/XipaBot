@@ -10,11 +10,13 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   let nuevoNombre = args[0] || nombreEncargada; // Obtiene el nombre nuevo o usa el predeterminado
   let nuevoTexto = args.slice(1).join(' ') || textoPersonalizable; // Obtiene el texto nuevo o usa el predeterminado
   
-  let oi = `THE ZERO LISTA FEM💞: ${nuevoTexto}`;
+  let oi = `THE ZERO LISTA FEM💞:`;
   let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
-  │ 
+  
   teks += `
-│      ෆ 𝘌𝘯𝘢𝘳𝘨𝘢𝘥𝘢: ${nuevoNombre}
+│
+│
+│      ෆ 𝘌𝘯𝘢𝘳𝘨𝘢𝘥𝘢:  ${nuevoNombre}
 │      ෆ 𝘏𝘰𝘳𝘢𝘳𝘪𐐫:
 │         ‧₊⌗ 14 🇵🇪 ⌇ 13 🇨🇱 ⌇ 16 🇦🇷      
 │
@@ -28,7 +30,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
 │ㅤ🔞•
 │ㅤ🔞•
 │
-│   ⊹ ִֶָ  𝘋𝘰𝘯𝘢𝘥𝘰𝘳𝘢 𝘥𝘦 𝘴𝘢𝘭𝘢: 
+│   ⊹ ִֶָ  𝘋𝘰𝘯𝘢𝘥𝘰𝘳𝘢 𝘥𝘦 𝘴𝘢𝘭𝘢:
 │
 ╰───────────────๑❀๑ •`
 
