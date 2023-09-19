@@ -12,8 +12,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   
   let oi = `𝗟𝗶𝘀𝘁𝗮 𝗱𝗲 𝗩𝗦`;
   let teks = `╭┈┈ ৎ 🪷ִ ׂ ⬫ ${oi}  ָ࣪  ۰ . ¡! \n`
-  teks += `
-│
+  teks += `│
 │
 │      ෆ *𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:*  ${nuevoNombre}
 │      ෆ *𝘏𝘰𝘳𝘢𝘳𝘪𐐫:*
