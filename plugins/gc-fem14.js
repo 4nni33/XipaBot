@@ -8,15 +8,8 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   let oi = `THE ZERO LISTA FEM💞: ${pesan}`
   let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
   
-  for (let mem of participants) {
-    // Reemplazar con una cadena vacía para eliminar menciones y números
-    teks += ''
-  }
-  
   teks += `
 │
-│         💗 ZERO, BOT SIMPLE CREADOR:http://wa.me/59897463355 💗
-│        ₊˚︶︶︶︶︶︶︶︶˚ ‧₊
 │
 │      ෆ 𝘌𝘯𝘢𝘳𝘨𝘢𝘥𝘢:
 │      ෆ 𝘏𝘰𝘳𝘢𝘳𝘪𐐫:
