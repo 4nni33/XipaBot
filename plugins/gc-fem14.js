@@ -12,7 +12,6 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   
   let oi = `𝗟𝗶𝘀𝘁𝗮 𝗱𝗲 𝗩𝗦`;
   let teks = `ৎ 🪷ִ ׂ ⬫ ${oi}  ָ࣪  ۰ . ¡! \n`
-│
   teks += `
 │
 │
