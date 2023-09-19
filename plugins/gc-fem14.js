@@ -11,7 +11,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   let nuevoTexto = args.slice(1).join(' ') || textoPersonalizable; // Obtiene el texto nuevo o usa el predeterminado
   
   let oi = `𝗟𝗶𝘀𝘁𝗮 𝗱𝗲 𝗩𝗦`;
-  let teks = `╭┈┈ ৎ 🪷ִ ׂ ⬫ ${oi}  ָ࣪  ۰ . ¡! \n`│
+  let teks = `╭┈┈ ৎ 🪷ִ ׂ ⬫ ${oi}  ָ࣪  ۰ . ¡! \n`
   teks += `
 │
 │
