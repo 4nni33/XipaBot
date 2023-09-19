@@ -5,7 +5,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   }
   
   let pesan = args.join` `
-  let oi = `THE ZERO LISTA FEM💞: ${pesan}`
+  let oi = `Listas de VS ${pesan}`
   let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
   
   teks += `
