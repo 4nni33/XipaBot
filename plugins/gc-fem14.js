@@ -16,7 +16,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   teks += `
 │
 │
-│      ෆ *𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘤𝘪ó𝘯:*  ${nuevoNombre}
+│      ෆ *𝘌𝘯𝘤𝘢𝘳𝘨𝘢𝘥𝘢:*  ${nuevoNombre}
 │      ෆ *𝘏𝘰𝘳𝘢𝘳𝘪𐐫:*
 │         ‧₊⌗ 14 🇵🇪 ⌇ 13 🇨🇱 ⌇ 16 🇦🇷      
 │
@@ -36,9 +36,9 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   conn.sendMessage(m.chat, { text: teks }, )
 }
 
-handler.help = ['fem16 <nombre> [mensaje]'] // Cambiado el nombre del comando
+handler.help = ['smsf00 <mensaje>', 'fem00 <mensaje>']
 handler.tags = ['group']
-handler.command = /^fem16$/i // Solo acepta "fem16"
+handler.command = /^(smsf00|fem16)$/i
 handler.admin = true
 handler.group = true
 
