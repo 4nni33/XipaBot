@@ -8,7 +8,6 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   }
 
   let nuevoNombre = args[0] || nombreEncargada; // Obtiene el nombre nuevo o usa el predeterminado
-  let nuevoTexto = args.slice(1).join(' ') || textoPersonalizable; // Obtiene el texto nuevo o usa el predeterminado
   
   let oi = `THE ZERO LISTA FEM💞: ${nuevoTexto}`;
   let teks = `╭┈┈ ๑❀๑ •• ${oi} ๑❀๑ ••:\n`
