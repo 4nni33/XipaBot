@@ -17,52 +17,50 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
-┈─𖨂 : *ʚ🩵ɞ  AnnieBot ✨ ⤾·˚ ༘*
-┈─𖨂 :✨ *Hola ${taguser}*
-┈─𖨂 :🔮 *Menu-Anime*
-︎︎︎︎ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯
+let str = `╭┈┈  ৎ 🫐 ׂ ⬫ **  ָ࣪  ۰ . ¡! 
+│✨ *Hola ${taguser}*
+│🔮 *Menu-Anime*
+╰───────────────๑✨๑
 
-ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
-┈─𖨂 : *ʚ🩵ɞ  Animes ✨ ⤾·˚ ༘*
-┈─𖨂 :🔮 *.miku*
-┈─𖨂 :🔮 *.loli*
-┈─𖨂 :🔮 *.lolivid*
-┈─𖨂 :🔮 *.akira*
-┈─𖨂 :🔮 *.akiyama*
-┈─𖨂 :🔮 *.anna*
-┈─𖨂 :🔮 *.asuna*
-┈─𖨂 :🔮 *.ayuzawa*
-┈─𖨂 :🔮 *.boruto*
-┈─𖨂 :🔮 *.chiho*
-┈─𖨂 :🔮 *.chitoge*
-┈─𖨂 :🔮 *.deidara*
-┈─𖨂 :🔮 *.erza*
-┈─𖨂 :🔮 *.elaina*
-┈─𖨂 :🔮 *.eba*
-┈─𖨂 :🔮 *.emilia*
-┈─𖨂 :🔮 *.hestia*
-┈─𖨂 :🔮 *.hinata*
-┈─𖨂 :🔮 *.inori*
-┈─𖨂 :🔮 *.isuzu*
-┈─𖨂 :🔮 *.itachi*
-┈─𖨂 :🔮 *.itori*
-┈─𖨂 :🔮 *.kaga*
-┈─𖨂 :🔮 *.kagura*
-┈─𖨂 :🔮 *.kaori*
-┈─𖨂 :🔮 *.keneki*
-┈─𖨂 :🔮 *.kotori*
-┈─𖨂 :🔮 *.kurumi*
-┈─𖨂 :🔮 *.madara*
-┈─𖨂 :🔮 *.mikasa*
-┈─𖨂 :🔮 *.minato*
-┈─𖨂 :🔮 *.naruto*
-┈─𖨂 :🔮 *.nezuko*
-┈─𖨂 :🔮 *.sagiri*
-┈─𖨂 :🔮 *.sasuke*
-┈─𖨂 :🔮 *.sakura*
-┈─𖨂 :🔮 *.cosplay*
-︎︎︎ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`.trim()
+╭┈┈  ৎ 🫐 ׂ ⬫ **  ָ࣪  ۰ . ¡! 
+│🔮 *.miku*
+│🔮 *.loli*
+│🔮 *.lolivid*
+│🔮 *.akira*
+│🔮 *.akiyama*
+│🔮 *.anna*
+│🔮 *.asuna*
+│🔮 *.ayuzawa*
+│🔮 *.boruto*
+│🔮 *.chiho*
+│🔮 *.chitoge*
+│🔮 *.deidara*
+│🔮 *.erza*
+│🔮 *.elaina*
+│🔮 *.eba*
+│🔮 *.emilia*
+│🔮 *.hestia*
+│🔮 *.hinata*
+│🔮 *.inori*
+│🔮 *.isuzu*
+│🔮 *.itachi*
+│🔮 *.itori*
+│🔮 *.kaga*
+│🔮 *.kagura*
+│🔮 *.kaori*
+│🔮 *.keneki*
+│🔮 *.kotori*
+│🔮 *.kurumi*
+│🔮 *.madara*
+│🔮 *.mikasa*
+│🔮 *.minato*
+│🔮 *.naruto*
+│🔮 *.nezuko*
+│🔮 *.sagiri*
+│🔮 *.sasuke*
+│🔮 *.sakura*
+│🔮 *.cosplay*
+︎︎︎╰───────────────๑✨๑`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'Konede.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
