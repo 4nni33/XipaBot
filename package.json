@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/4nni33/Annie",
+    "homepage": "https://github.com/4nni33/XipaBot",
     "author": {
-        "name": "Annie"
+        "name": "Xipa"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/4nni33/Annie.git"
+        "url": "git+https://github.com/4nni33/XipaBot.git"
     },
     "bugs": {
-        "url": "https://github.com/4nni33/Annie/issues"
+        "url": "https://github.com/4nni33/XipaBot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
