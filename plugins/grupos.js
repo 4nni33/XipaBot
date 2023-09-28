@@ -17,20 +17,20 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
-ততত ʚ🩵ɞ  𝗔𝗻𝗻𝗶𝗲𝗕𝗼𝘁 ✨ ⤾·˚ ༘ ততত
-┈─𖨂 :✨ *Hola ${taguser}*
-┈─𖨂 :🌴 *Owner: Annie*
-┈─𖨂 :🧿 *Número: 59892959423*
-┈─𖨂 :📅 *Fecha: ${date}*
-┈─𖨂 :⏰ *Tiempo: ${uptime}*
-┈─𖨂 :👥 *Usuarios: ${rtotalreg}*
-ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯
+let str = `╭┈┈  ৎ 🫐 ׂ ⬫ *XIPABOT*  ָ࣪  ۰ . ¡! 
+│✨ *Hola ${taguser}*
+│🌴 *Owner: Annie*
+│🧿 *Número: 59892959423*
+│📅 *Fecha: ${date}*
+│⏰ *Tiempo: ${uptime}*
+│👥 *Usuarios: ${rtotalreg}*
+╰───────────────๑✨๑
+
 ┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈
-  ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈┈╮
-┈─𖨂 : *ʚ🩵ɞ  Cuentas ✨ ⤾·˚ ༘*
-┈─𖨂 :*Instagram:* instagram.com/designs.annie
-ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`.trim()
+
+╭┈┈  ৎ 🫐 ׂ ⬫ *CUENTAS*  ָ࣪  ۰ . ¡! 
+│*Instagram:* instagram.com/xipa_dzn
+╰───────────────๑✨๑`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
