@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix }) => {
   var doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document']
   var document = doc[Math.floor(Math.random() * doc.length)]
-  let text = `╭┈┈  ৎ 🫐 ׂ ⬫ **  ָ࣪  ۰ . ¡! 
+  let text = `╭┈┈  ৎ 🫐 ׂ ⬫ *Tienda*  ָ࣪  ۰ . ¡! 
 │ *.busyall (usa Coins)* 💰
 │ *.bus <cantidad>* 💎
 │ *.buyall (usa XP)* 🧿
@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 ┈┈┈┈┈ ๑ ⋅ ⋯ ୨ ୧ ⋯ ⋅ ๑ ┈┈┈┈┈
 
-╭┈┈  ৎ 🫐 ׂ ⬫ **  ָ࣪  ۰ . ¡! 
+╭┈┈  ৎ 🫐 ׂ ⬫ *Tienda Premium*  ָ࣪  ۰ . ¡! 
 │ ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓵ᴘᴀss»⓵» /prem1 15 *dolares💵*
 │ 🌀ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓶ᴘᴀss»⓶» /prem2 25 *dolares💵*
 │ ᴘʀᴇᴍɪᴜᴍ»ᴄʟᴀsᴇ»⓷ᴘᴀss»⓷» /prem3 35 *dolares💵* *
