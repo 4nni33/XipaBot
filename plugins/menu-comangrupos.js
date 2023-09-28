@@ -19,43 +19,42 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
-┈─𖨂 : *ʚ🩵ɞ  Grupos ✨ ⤾·˚ ༘*
-┈─𖨂 :🔩 */enable welcome*
-┈─𖨂 :🔩 */disable welcome*
-┈─𖨂 :🔩 */enable public*
-┈─𖨂 :🔩 */disable public*
-┈─𖨂 :🔩 */enable restrict*
-┈─𖨂 :🔩 */disable restrict*
-┈─𖨂 :🔩 */enable pconly*
-┈─𖨂 :🔩 */disable pconly*
-┈─𖨂 :🔩 */enable anticall*
-┈─𖨂 :🔩 */disable anticall*
-┈─𖨂 :🔩 */enable simsimi*
-┈─𖨂 :🔩 */disable simsimi*
-┈─𖨂 :🔩 */enable modohorny*
-┈─𖨂 :🔩 */disable modohorny*
-┈─𖨂 :🔩 */enable antilink*
-┈─𖨂 :🔩 */disable antilink*
-┈─𖨂 :🔩 */enable antilink2*
-┈─𖨂 :🔩 */disable antilink2*
-┈─𖨂 :🔩 */enable detect*
-┈─𖨂 :🔩 */disable detect*
-┈─𖨂 :🔩 */enable detect2*
-┈─𖨂 :🔩 */disable detect2*
-┈─𖨂 :🔩 */enable autosticker*
-┈─𖨂 :🔩 */disable autosticker*
-┈─𖨂 :🔩 */enable antiviewonce*
-┈─𖨂 :🔩 */disable antiviewonce*
-┈─𖨂 :🔩 */enable antitoxic*
-┈─𖨂 :🔩 */disable antitoxic*
-┈─𖨂 :🔩 */enable antitraba*
-┈─𖨂 :🔩 */disable antitraba*
-┈─𖨂 :🔩 */enable antiarabes*
-┈─𖨂 :🔩 */disable antiarabes*
-┈─𖨂 :🔩 */enable modoadmin*
-┈─𖨂 :🔩 */disable modoadmin*
-︎ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`.trim()
+let str = `╭┈┈  ৎ 🫐 ׂ ⬫ *Comandos Grupos*  ָ࣪  ۰ . ¡! 
+│🔩 */enable welcome*
+│🔩 */disable welcome*
+│🔩 */enable public*
+│🔩 */disable public*
+│🔩 */enable restrict*
+│🔩 */disable restrict*
+│🔩 */enable pconly*
+│🔩 */disable pconly*
+│🔩 */enable anticall*
+│🔩 */disable anticall*
+│🔩 */enable simsimi*
+│🔩 */disable simsimi*
+│🔩 */enable modohorny*
+│🔩 */disable modohorny*
+│🔩 */enable antilink*
+│🔩 */disable antilink*
+│🔩 */enable antilink2*
+│🔩 */disable antilink2*
+│🔩 */enable detect*
+│🔩 */disable detect*
+│🔩 */enable detect2*
+│🔩 */disable detect2*
+│🔩 */enable autosticker*
+│🔩 */disable autosticker*
+│🔩 */enable antiviewonce*
+│🔩 */disable antiviewonce*
+│🔩 */enable antitoxic*
+│🔩 */disable antitoxic*
+│🔩 */enable antitraba*
+│🔩 */disable antitraba*
+│🔩 */enable antiarabes*
+│🔩 */disable antiarabes*
+│🔩 */enable modoadmin*
+│🔩 */disable modoadmin*
+╰───────────────๑✨๑`.trim()
 if (m.isGroup) {
 //await conn.sendFile(m.chat, vn, 'Darling.mp3', null, m, true, { type: 'audioMessage', ptt: true})
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }  
