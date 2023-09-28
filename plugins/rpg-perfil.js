@@ -13,20 +13,20 @@ let { name, role, level, limit, money, exp, joincount, lastclaim, registered, re
 let username = conn.getName(who)
 let prem = global.prems.includes(who.split `@` [0])
 let sn = createHash('md5').update(who).digest('hex')
-let str = `╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
-│➥ 𓏲 ๋࣭  *𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
-│➥ 𓏲 ๋࣭  *🌐 𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
-│➥ 𓏲 ๋࣭  *Rango:* ${role}
-│➥ 𓏲 ๋࣭  *✳️️ Nivel:* ${level}
-│➥ 𓏲 ๋࣭  *🧿 Experiencia:* ${exp}
-│➥ 𓏲 ๋࣭  *💎 Diamantes:* ${limit} 𝚄𝚂𝙾𝚂
-│➥ 𓏲 ๋࣭  *👾 Coins:* ${money}
-│➥ 𓏲 ๋࣭  *💵 Dolares:* ${joincount}
-│➥ 𓏲 ๋࣭  *💥 Registrado:* ${registered ? 'Si': 'No'}
-│➥ 𓏲 ๋࣭  *✔️ Premium:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
-│➥ 𓏲 ๋࣭  *📝𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
-│➥ 𓏲 ๋࣭  *${sn}*
-╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`
+let str = `╭───────────────๑🫐๑
+│ *𝙽𝙾𝙼𝙱𝚁𝙴:* ${username} ${registered ? '(' + name + ') ': ''}
+│ *🌐 𝙻𝙸𝙽𝙺:* wa.me/${who.split`@`[0]}${registered ? '\n*𝙴𝙳𝙰𝙳:* ' + age + ' años' : ''}
+│ *Rango:* ${role}
+│ *✳️️ Nivel:* ${level}
+│ *🧿 Experiencia:* ${exp}
+│ *💎 Diamantes:* ${limit} 𝚄𝚂𝙾𝚂
+│ *👾 Coins:* ${money}
+│ *💵 Dolares:* ${joincount}
+│ *💥 Registrado:* ${registered ? 'Si': 'No'}
+│ *✔️ Premium:* ${premiumTime > 0 ? 'Si' : (isPrems ? 'Si' : 'No') || ''}
+│ *📝𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴:* 
+│ *${sn}*
+╰───────────────๑✨๑`
 conn.sendMessage(m.chat, { image: { url: pp }, caption: str }, { quoted: m })
 //conn.sendButton(m.chat, str, author, pp, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m)
 }}
