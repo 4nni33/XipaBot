@@ -38,13 +38,13 @@ const imgpre = [
 'https://i.imgur.com/jRA9pwD.jpeg'];
 
 
-await conn.reply(m.chat, `╭─────°.♡.°‧─────
-│⫷᭄©𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰﹏✍  
+await conn.reply(m.chat, `╭───────────────๑🫐๑
+│▒̶᩠߲⃡ࠖ᩼᭭݊⃝⃡🫐ࣱꪾ῾֣ؐ  𝘟𝘪𝘱𝘢𝘉𝘰𝘵 °୭
 │📑ɴᴏᴍʙʀᴇ»${user.name}*
 │💰ᴘᴀɢᴏ»${hades * text} ${rpgshopp.emoticon('joincount')}* *dolares💵*
 │📜ᴛɪᴇɴᴅᴀ»ᴘʀᴇᴍɪᴜᴍ
 │⏳ᴘᴀʀᴀ ᴠᴇʀ ᴛᴜ ᴛɪᴇᴍᴘᴏ»/listprem
-╰─────°.♡.°‧─────\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
+╰───────────────๑✨๑\n\n🌀ᴀʜᴏʀᴀ ᴛɪᴇɴᴇ ᴘʀᴇᴍɪᴜᴍ ᴘᴏʀ ʟᴏ ᴛᴀɴᴛᴏ ɴᴏ ᴠᴀ ᴛᴇɴᴇʀ ʟíᴍɪᴛᴇs\n${wm}`, fkontak, { mentions: [aa,] })}
 
 if (/prem2/i.test(command)) {
 var tiempoPremium = 15 * text 
