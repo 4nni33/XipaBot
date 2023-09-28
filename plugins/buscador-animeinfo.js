@@ -9,24 +9,24 @@ let result = anime.data[0];
 let resultes = await translate(`${result.background}`, { to: 'es', autoCorrect: true })   
 let resultes2 = await translate(`${result.synopsis}`, { to: 'es', autoCorrect: true })   
 let AnimeInfo = `
-ㅤ╭┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╮
-➥ 𓏲 ๋࣭  🎀 • *Título:* ${result.title}
-➥ 𓏲 ๋࣭  🎋 • *Formato:* ${result.type}
-➥ 𓏲 ๋࣭  📈 • *Estado:* ${result.status.toUpperCase().replace(/\_/g, " ")}
-➥ 𓏲 ๋࣭  🍥 • *Episodios totales:* ${result.episodes}
-➥ 𓏲 ๋࣭  🎈 • *Duración: ${result.duration}*
-➥ 𓏲 ๋࣭  ✨ • *Basado en:* ${result.source.toUpperCase()}
-➥ 𓏲 ๋࣭  💫 • *Estrenado:* ${result.aired.from}
-➥ 𓏲 ๋࣭  🎗 • *Finalizado:* ${result.aired.to}
-➥ 𓏲 ๋࣭  🎐 • *Popularidad:* ${result.popularity}
-➥ 𓏲 ๋࣭  🎏 • *Favoritos:* ${result.favorites}
-➥ 𓏲 ๋࣭  🎇 • *Clasificación:* ${result.rating}
-➥ 𓏲 ๋࣭  🏅 • *Rango:* ${result.rank}
-➥ 𓏲 ๋࣭  ♦ • *Trailer:* ${result.trailer.url}
-➥ 𓏲 ๋࣭  🌐 • *URL:* ${result.url}
-➥ 𓏲 ๋࣭  🎆 • *Background:* ${resultes.text}
-➥ 𓏲 ๋࣭  ❄ • *Ringkasan:* ${resultes2.text}
-ㅤ╰┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈╯`
+╭┈┈  ৎ 🫐 ׂ ⬫ *RESULTADOS*  ָ࣪  ۰ . ¡! 
+│🎀 • *Título:* ${result.title}
+│🎋 • *Formato:* ${result.type}
+│📈 • *Estado:* ${result.status.toUpperCase().replace(/\_/g, " ")}
+│🍥 • *Episodios totales:* ${result.episodes}
+│🎈 • *Duración: ${result.duration}*
+│✨ • *Basado en:* ${result.source.toUpperCase()}
+│💫 • *Estrenado:* ${result.aired.from}
+│🎗 • *Finalizado:* ${result.aired.to}
+│🎐 • *Popularidad:* ${result.popularity}
+│🎏 • *Favoritos:* ${result.favorites}
+│🎇 • *Clasificación:* ${result.rating}
+│🏅 • *Rango:* ${result.rank}
+│♦ • *Trailer:* ${result.trailer.url}
+│🌐 • *URL:* ${result.url}
+│🎆 • *Background:* ${resultes.text}
+│❄ • *Ringkasan:* ${resultes2.text}
+╰───────────────๑✨๑`
 conn.sendFile(m.chat, result.images.jpg.image_url, 'error.jpg', AnimeInfo, m)
 } catch {
 throw `*[❗] ERROR, INTENTELO DE NUEVO*`  
